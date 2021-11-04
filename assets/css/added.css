@@ -5,7 +5,8 @@
   z-index: 100;
   transition: 0.5s;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 0px;
+  padding: 0px;
   text-align: center;
 }
 
