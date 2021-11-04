@@ -1,0 +1,110 @@
+#navbar {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.85);;
+  width: 100%;
+  z-index: 100;
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+nav ul {
+  /*float: right;*/
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#navbar a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 3.75em;
+  border-radius: 3.5em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: background-color 0.5s;
+}
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mb1 {
+  margin-bottom: 1em;
+}
+
+.mb2 {
+  margin-bottom: 0.5em;
+}
+
+
+#publications {
+  padding: 2.5rem 6rem 0.5rem 6rem;
+}
+
+#publications>div>ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#publications>div>ul>li {
+  padding-left: 0;
+}
+
+.paper-info {
+  color: #CC5757;
+  font-size: 90%;
+}
+
+.paper-title{
+  margin-top: 0.5rem;
+  font-weight: 400;
+  font-size: 105%;
+}
+
+.paper-links {
+  margin-top: -0.3rem;
+}
+
+.paper-links > a {
+  color: #0068D3;
+  font-size: 80%;
+  text-decoration: none;
+  margin-right: .2em;
+}
+
+.paper-links > a:hover {
+  color: black;
+}
+
+.paper-links > a:after {
+  content: "]";
+  font-weight: bold;
+}
+
+.paper-links > a:before {
+  content: "[";
+  font-weight: bold;
+}
