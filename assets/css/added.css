@@ -115,3 +115,9 @@ html {
   content: "[";
   font-weight: bold;
 }
+
+.recent-update{
+  margin-top: 0.5rem;
+  font-weight: 400;
+  font-size: 105%;
+}
