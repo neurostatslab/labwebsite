@@ -116,8 +116,49 @@ html {
   font-weight: bold;
 }
 
-.recent-update{
-  margin-top: 0.5rem;
-  font-weight: 400;
-  font-size: 105%;
+.team-links > a {
+  color: #0068D3;
+  text-decoration: none;
+}
+
+.team-links > a:hover {
+  color: black;
+}
+
+.team-links > a:after {
+  content: "]";
+  font-weight: bold;
+}
+
+.team-links > a:before {
+  content: "[";
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.column50 {
+  flex: 50%;
+  text-align: center;
+}
+
+.column25 {
+  flex: 25%;
+  text-align: center;
+}
+
+.member-name {
+  /*font-size: 25px;*/
+  line-height: 0;
+  font-weight: bold;
+}
+
+.member-image {
+  border-radius: 80px;
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
 }
