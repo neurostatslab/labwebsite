@@ -154,8 +154,13 @@ html {
   text-align: center;
 }
 
+.column33 {
+  flex: 33%;
+  text-align: center;
+}
+
 .member-name {
-  /*font-size: 25px;*/
+  font-size: 25px;
   line-height: 0;
   font-weight: bold;
 }
@@ -164,6 +169,6 @@ html {
   border-radius: 80px;
 /*  height: 90%;*/
 /*  width: 100%;*/
-  max-width: 250px;
+  max-width: 325px;
   padding: 20px;
 }
