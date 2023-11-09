@@ -172,3 +172,9 @@ html {
   max-width: 325px;
   padding: 20px;
 }
+
+.member-coadvised {
+  font-size: 20px;
+  line-height: 0;
+  font-style: italic;
+}
