@@ -80,6 +80,22 @@ html {
   padding-left: 0;
 }
 
+#publications>div>ul>h3 {
+  font-size: 30px;
+  /* font-weight: bold; */
+  margin-bottom: -1px;
+  margin-top: 40px;
+  /* font-style: italic; */
+  color: #3a3c40;
+}
+
+#publications>div>ul>h3:after {
+  content: "\00a0\00a0\22B3";
+}
+#publications>div>ul>h3:before {
+  content: "\22B2\00a0\00a0";
+}
+
 .paper-info {
   color: #CC5757;
   font-size: 90%;
